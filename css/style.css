@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.plus {
+    width: 300px;
+    height: auto;
+    transition: 0.5s all;
+}
+
+
+.plus:hover {
+    rotate: 1turn;
+}
+
+.plus stop {
+    transition: 0.5s all;
+}
+
+.plus:hover stop:first-child {
+    stop-color: rebeccapurple;
+}
+
+.facebook:hover stop:nth-child(2) {
+    stop-color: forestgreen;
+}
+
+.plus:hover stop:nth-child(3) {
+    stop-color: limegreen;
+}
+
+.plus:hover stop:last-child {
+    stop-color: burlywood;
+}
+
+
+
+
+
+
+
+
+
+
+.facebook {
+    width: 300px;
+    height: auto;
+    transition: 0.5s all;
+
+}
+
+.facebook:hover {
+    rotate: 1turn;
+}
+
+.facebook stop {
+    transition: 0.5s all;
+}
+
+.facebook:hover stop:first-child {
+    stop-color: #F56217;
+}
+
+.facebook:hover stop:nth-child(2) {
+    stop-color: #FD746C;
+}
+
+.facebook:hover stop:nth-child(3) {
+    stop-color: #2C3E50;
+}
+
+.facebook:hover stop:last-child {
+    stop-color: #0B486B;
+}
